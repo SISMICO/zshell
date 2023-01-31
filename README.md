@@ -19,3 +19,14 @@ Edit ~/.zshrc configuration file
 ````
 ZSH_THEME="powerlevel9k/powerlevel9k"
 plugins=(zsh-autosuggestions)
+
+````
+
+## Alias
+````
+alias micon="pactl load-module module-loopback latency_msec=1"
+alias micoff="pactl unload-module module-loopback"
+alias ll="exa -l"
+alias la="exa -la"
+alias cat="batcat"
+````
