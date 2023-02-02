@@ -29,4 +29,8 @@ alias micoff="pactl unload-module module-loopback"
 alias ll="exa -l"
 alias la="exa -la"
 alias cat="batcat"
+alias hg="history | grep "
+alias rasp="ssh -i ~/.ssh/id_rsa_sismico pi@192.168.10.11"
+alias raspnoelia="ssh -p 4022 -i ~/.ssh/id_rsa_sismico pi@noelia.sismico.ddnsfree.com"
+alias raspintegrativapet="ssh -p 4022 -i ~/.ssh/id_rsa_sismico pi@integrativapet.sismico.ddnsfree.com"
 ````
