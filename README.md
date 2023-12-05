@@ -13,12 +13,13 @@ fc-cache -vf ~/.local/share/fonts/
 mkdir ~/.config/fontconfig/conf.d -p
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ````
 
 Edit ~/.zshrc configuration file
 ````
 ZSH_THEME="powerlevel9k/powerlevel9k"
-plugins=(zsh-autosuggestions)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 
 ````
 
